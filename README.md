@@ -24,7 +24,11 @@ This project analyzes Walmart retail sales data using Python to uncover sales tr
 
 ## Dataset Information
 
-**Dataset:** https://data.world/ahmedmnif150/walmart-retail-dataset
+The dataset used in this project is available from:
+
+https://data.world/ahmedmnif150/walmart-retail-dataset
+
+Due to GitHub file size limitations, the dataset is not included in this repository.
 
 **Dataset Size:**
 
@@ -98,7 +102,6 @@ The project includes various visualizations such as:
 ## Project Structure
 
 ```
-├── Walmart-Retail-Dataset.csv
 ├── Walmart-Retail-Analysis.ipynb
 ├── Walmart-Retail-Analysis-Documentation.pdf
 ├── Walmart_logo.png
@@ -107,16 +110,35 @@ The project includes various visualizations such as:
 
 ## How to Run
 
-1. Clone this repository.
-2. Open the Jupyter Notebook.
+1. Clone this repository:
+
+```bash
+git clone <repository-url>
+```
+
+2. Navigate to the project directory.
+
 3. Install the required libraries:
 
 ```bash
 pip install pandas numpy matplotlib seaborn plotly
 ```
 
-4. Run the notebook cells sequentially.
-5. Explore the visualizations and insights generated during the analysis.
+4. Download the Walmart Retail Dataset from the source below:
+
+https://data.world/ahmedmnif150/walmart-retail-dataset
+
+5. Place the downloaded dataset in the appropriate project directory.
+
+6. Open the Jupyter Notebook:
+
+```bash
+jupyter notebook Walmart-Retail-Analysis.ipynb
+```
+
+7. Run the notebook cells sequentially to perform data cleaning, analysis, and visualization.
+
+8. Explore the generated charts and business insights.
 
 ## Conclusion
 
